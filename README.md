@@ -15,6 +15,13 @@ Xamarin
 Visual Studio || Xamarin Studio (Mac version)
 Android Emulator (I used Genymotion)
 ```
+### Installation
+
+Follow these instructions on the Xamarin website to install xamarin for the platfor of your choice
+
+``
+https://developer.xamarin.com/guides/xamarin-forms/getting-started/installation/
+``
 
 ## Authors
 
