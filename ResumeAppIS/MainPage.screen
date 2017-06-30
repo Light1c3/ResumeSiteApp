@@ -1,0 +1,238 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="8.2.2000.140"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    Id="c25bed27-3350-4aab-8b46-53a36c5f8f55">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="a3a18ac2-b11e-4e81-b6aa-1f8129e47627">
+            <Content.Layers>
+                <Layer Id="485b2335-3822-4091-ad56-30235827cd7f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="c6321f54-8180-44d2-a04e-d4a0eb84c3ef" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="c46fdf78-e1a6-4ba5-aa9a-5f03bf7d23a4" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="2ab03e77-541e-48c9-b652-6ef2b4239fdb" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="06/18/2017 09:15:15" Id="ba0cb8a6-feeb-4d6a-abd6-81fc8e215a71">
+            <Scene.KeyFrames>
+                <KeyFrame Id="e1989a54-7210-4426-9bec-a09b1dc7e300">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Title RichText="Elad Karni" Foreground="#FFFFFFFF" FontSize="72" Id="3c87f67b-643c-40d8-a762-8bcbffa4e061" Panel.Bounds="37,35,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="3c87f67b-643c-40d8-a762-8bcbffa4e061" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Rectangle Background="#FF00171C" Id="4eb2aaff-7937-457f-9c5f-ebbd1adb7c8a" Panel.Bounds="0,0,412{5,2147483647},690{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Label RichText="A &lt;Run Foreground=&quot;#FF4186A7&quot; &gt;programmer, game designer&lt;/Run&gt;, &lt;Run Foreground=&quot;#FF4186A7&quot; &gt;photographer &lt;/Run&gt;and &lt;Run Foreground=&quot;#FF4186A7&quot; &gt;IT Generalist&lt;/Run&gt; with more than 5 years of professional experience in the field." Align="Center" Foreground="#FFFFFFFF" FontSize="24" Id="637808dd-2849-4f1d-bd50-b99605e35f5f" Panel.Bounds="37,146,338{5,2147483647},166{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Title RichText="Resume" Foreground="#FFFFFFFF" Id="012c89f7-5e76-4ba9-b744-eefb70737879" Panel.Bounds="235,610,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="012c89f7-5e76-4ba9-b744-eefb70737879" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Title RichText="Contact" Foreground="#FFFFFFFF" Id="bbc1fcec-4b71-4aea-9d7d-fc20c056d55d" Panel.Bounds="44,610,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="bbc1fcec-4b71-4aea-9d7d-fc20c056d55d" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Title RichText="Portfolio" Foreground="#FFFFFFFF" Id="2298a4b4-d0a4-462b-ab0f-d885fe517e47" Panel.Bounds="230,434,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="2298a4b4-d0a4-462b-ab0f-d885fe517e47" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Title RichText="About" Foreground="#FFFFFFFF" Id="bbe4039e-0884-4272-b444-9b8cca6a58fc" Panel.Bounds="57,434,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="bbe4039e-0884-4272-b444-9b8cca6a58fc" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="fa-phone" Id="022b0195-a78a-48a6-bd89-8ddf0a43fd13" Panel.Bounds="57,507,96{5,2147483647},96{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="022b0195-a78a-48a6-bd89-8ddf0a43fd13" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Books" Id="8db34b54-d94e-4de0-934c-7d169fde836a" Panel.Bounds="251,336,96{5,2147483647},96{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="8db34b54-d94e-4de0-934c-7d169fde836a" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="fa-file-text" Id="2c5d9dc3-2e1c-408e-9e61-354b57890031" Panel.Bounds="251,507,96{5,2147483647},96{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="2c5d9dc3-2e1c-408e-9e61-354b57890031" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="fa-user" Id="d333a4ca-f89e-42af-b329-f22a2cd1b607" Panel.Bounds="57,336,96{5,2147483647},96{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="936340c0-7763-4ea0-80cf-654412c40000" Panel.Bounds="230,332,137,149">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="39ceeac4-7bef-4f41-906f-62f3074f4e02" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="d1b85280-0bfb-44b3-81f4-637a157c570f">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="6b9ff0d0-7c3c-4b8c-96a3-b0ad6f0b7942" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="29bd18c7-326b-4d1c-b4f9-c57898e1b37d">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="0ae896a6-26d0-461f-aa93-75f641c02853" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="6ce97710-830f-47cc-8fa0-4eeb1a1e93db">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="bd3fcc88-449d-44a4-8939-49775198b4c8" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="a9dc28e6-63ab-4fdf-ad1d-fff9bb8b7400">
+                                            <Segment.EndPoint>
+                                                <Point Id="8294a2e2-4af9-40b3-a285-ccc1d8384369" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                    <HotSpot.Click>
+                                        <CommandNavigate Screen="/PortfolioPage.screen" Created="06/22/2017 03:37:25" Id="bfc0f8fe-603f-4902-8275-bc03e1ce9cc8">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </HotSpot.Click>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="13a9dbe8-3a5d-49de-a5ce-4c9a244f6296" Panel.Bounds="37,332,137,149">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="e56e90d3-deef-47bf-a1a6-2638e4a75113" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="5ea77e46-0c9a-48e9-a331-6121ba7e547e">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="f51bcecf-6689-41c8-9e13-d0ef84462244" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="8ba29fff-7e88-40c3-95e9-02d57bd7b099">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="5a1b23e4-79f1-4985-b861-065c8deb3778" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="cb3d055f-56f9-4524-8d74-6607186a6421">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="ee2423d5-3c9a-4a07-906f-41fa73c368a5" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="61e05f40-becb-4a8d-b1df-d2a3c12878f8">
+                                            <Segment.EndPoint>
+                                                <Point Id="7d17d0d1-d282-47dc-a61e-2317d1410723" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                    <HotSpot.Click>
+                                        <CommandNavigate Screen="/AboutPage.screen" Created="06/22/2017 03:37:15" Id="c755551f-f367-438f-8a70-9f7f7bb768f5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </HotSpot.Click>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="5d497056-b4c0-4e3f-a8c3-4af9a6befed2" Panel.Bounds="37,503,137,149">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="c548798c-4cce-4ec9-8c3b-e9ac3de3306a" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="94889a69-f178-4f32-a979-0ae60dfe86d7">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="638107d4-99f1-43a6-8229-c2f673b18fde" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="662aa14b-6c2b-4402-b4d3-6ac341585782">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="990051f2-6526-4258-bada-5eb7d2850564" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="4e953553-d019-4f21-b34e-276a8ff285b6">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="ab3a064f-e1da-44a4-aec2-51c8caa1211d" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="7dc14771-fb2b-4032-a282-2df81b6976fe">
+                                            <Segment.EndPoint>
+                                                <Point Id="bb78f175-10f2-4c39-b631-22a359be435d" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                    <HotSpot.Click>
+                                        <CommandNavigate Screen="/ContactPage.screen" Created="06/22/2017 03:37:35" Id="cb59524d-47af-4127-8562-c2b20e0bb278">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </HotSpot.Click>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="485b2335-3822-4091-ad56-30235827cd7f">
+                            <Add.Item>
+                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="8b2ae232-470d-42fa-a01a-b4e7b9886571" Panel.Bounds="230,503,137,149">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="487d09b6-99c2-4d46-9ad4-cc03623c252c" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="2f0856ab-cb6f-4cdc-baea-b03b27812f24">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="1ea86dee-009e-4a57-a217-fb6f7c276e95" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="df43df7a-e447-4de5-b645-2a81da8f9525">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="033f86b6-e491-4627-8400-766e903070b8" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="a75735f8-1ef5-4b3e-9b7f-7b62de3d124c">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="89ad612e-16e3-433d-abe4-63b51321254e" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="4cdaad80-f4da-4c36-8d27-ca0cca27b814">
+                                            <Segment.EndPoint>
+                                                <Point Id="52e84be7-82d6-46fc-bd0a-052c23888c15" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                    <HotSpot.Click>
+                                        <CommandNavigate Screen="/ResumePage.screen" Created="06/22/2017 03:37:43" Id="65ca8112-6707-4157-9149-9c8ef4255838">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </HotSpot.Click>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
