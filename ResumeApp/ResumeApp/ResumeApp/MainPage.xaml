@@ -2,10 +2,126 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ResumeApp"
-             x:Class="ResumeApp.MainPage">
+             x:Class="ResumeApp.MainPage"
+             BackgroundColor="#00171C">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout Margin="15,0">
+
+        <Label Text="Elad Karni"
+               TextColor="White"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               FontSize="48"
+               Margin="0,25"/>
+
+        <Label Text="A programmer, game designer, photographer and IT Generalist with more than 5 years of professional experience in the field"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               FontSize="22"
+               Margin="0,0,15,0"/>
+
+        <Grid HorizontalOptions="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <RelativeLayout Grid.Column="0"
+                            Grid.Row="0">
+
+                <Button WidthRequest="100"
+                        HeightRequest="100" 
+                        Margin="15"/>
+
+                <Label  Text="About"
+                        TextColor="White"
+                        FontSize="32"
+                        HorizontalOptions="Center"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=Constant,
+                                                     Property=Height,
+                                                     Factor=.5,
+                                                     Constant=110}"
+                        
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=Constant,
+                                                     Property=Height,
+                                                     Factor=.5,
+                                                     Constant=20}"/>
+
+            </RelativeLayout>
+            <RelativeLayout Grid.Column="1"
+                            Grid.Row="0">
+
+                <Button WidthRequest="100"
+                        HeightRequest="100"
+                        Margin="15" />
+
+                <Label  Text="Resume"
+                        TextColor="White"
+                        FontSize="32" 
+                        HorizontalOptions="Center"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=Constant,
+                                                     Property=Height,
+                                                     Factor=.5,
+                                                     Constant=110}"
+                        
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=Constant,
+                                                     Property=Height,
+                                                     Factor=.5,
+                                                     Constant=7}"/>
+
+            </RelativeLayout>
+            <RelativeLayout Grid.Column="0"
+                            Grid.Row="1">
+
+                <Button WidthRequest="100"
+                        HeightRequest="100"
+                        Margin="15" />
+
+                <Label  Text="Portfolio"
+                        TextColor="White"
+                        FontSize="32" 
+                        HorizontalOptions="Center"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=Constant,
+                                                     Property=Height,
+                                                     Factor=.5,
+                                                     Constant=110}"
+                        
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=Constant,
+                                                     Property=Height,
+                                                     Factor=.5,
+                                                     Constant=3}"/>
+
+            </RelativeLayout>
+            <RelativeLayout Grid.Column="1"
+                            Grid.Row="1">
+
+                <Button WidthRequest="100"
+                        HeightRequest="100"
+                        Margin="15" />
+
+                <Label  Text="Contact"
+                        TextColor="White"
+                        FontSize="32" 
+                        HorizontalOptions="Center"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=Constant,
+                                                     Property=Height,
+                                                     Factor=.5,
+                                                     Constant=110}"
+                        
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=Constant,
+                                                     Property=Height,
+                                                     Factor=.5,
+                                                     Constant=10}"/>
+
+            </RelativeLayout>
+
+        </Grid>
+
+    </StackLayout>
 
 </ContentPage>
