@@ -6,9 +6,9 @@
 
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="Center">
-        
+
         <Label Text="This is my Portfolio page" TextColor="White"/>
-        
-    </StackLayout>>
-    
+
+    </StackLayout>
+
 </ContentPage>
