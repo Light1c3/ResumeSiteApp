@@ -60,7 +60,9 @@
 
                 <Button WidthRequest="100"
                         HeightRequest="100"
-                        Margin="15" />
+                        Margin="15"
+                        x:Name="btnResume"
+                        Clicked="btnResume_Clicked"/>
 
                 <Label  Text="Resume"
                         TextColor="White"
@@ -82,7 +84,9 @@
 
                 <Button WidthRequest="100"
                         HeightRequest="100"
-                        Margin="15" />
+                        Margin="15" 
+                        x:Name="btnPortfolio"
+                        Clicked="btnPortfolio_Clicked"/>
 
                 <Label  Text="Portfolio"
                         TextColor="White"
@@ -104,7 +108,9 @@
 
                 <Button WidthRequest="100"
                         HeightRequest="100"
-                        Margin="15" />
+                        Margin="15"
+                        x:Name="btnContact"
+                        Clicked="btnContact_Clicked"/>
 
                 <Label  Text="Contact"
                         TextColor="White"
