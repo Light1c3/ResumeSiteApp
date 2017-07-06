@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace ResumeApp
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AppNavigationDetail
+    {
+        public AppNavigationDetail()
+        {
+            InitializeComponent();
+        }
+    }
+}

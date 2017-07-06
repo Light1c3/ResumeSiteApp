@@ -11,7 +11,15 @@ namespace ResumeApp
     {
         public MainPage()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
+
             InitializeComponent();
+        }
+
+        private async void btnAbout_Clicked(object sender, EventArgs e)
+        {
+            AppNavigationMenuItem pageItem = new AppNavigationMenuItem { Id = 1, Title = "About", TargetType = typeof(AboutPage) };
+            await Navigation.PushModalAsync(new AppNavigation(pageItem));
         }
     }
 }

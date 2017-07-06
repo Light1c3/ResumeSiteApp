@@ -36,7 +36,9 @@
 
                 <Button WidthRequest="100"
                         HeightRequest="100" 
-                        Margin="15"/>
+                        Margin="15"
+                        x:Name="btnAbout"
+                        Clicked="btnAbout_Clicked"/>
 
                 <Label  Text="About"
                         TextColor="White"
