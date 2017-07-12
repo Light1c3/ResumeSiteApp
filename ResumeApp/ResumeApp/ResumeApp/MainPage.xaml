@@ -8,14 +8,14 @@
     <StackLayout Margin="15,0">
 
         <Label Text="Elad Karni"
-               TextColor="White"
+               TextColor="#abc9d1"
                VerticalOptions="Center" 
                HorizontalOptions="Center"
                FontSize="48"
                Margin="0,25"/>
 
         <Label Text="A programmer, game designer, photographer and IT Generalist with more than 5 years of professional experience in the field"
-               TextColor="White"
+               TextColor="#abc9d1"
                HorizontalTextAlignment="Center"
                VerticalOptions="Center" 
                HorizontalOptions="Center"
@@ -41,7 +41,7 @@
                         Clicked="btnAbout_Clicked"/>
 
                 <Label  Text="About"
-                        TextColor="White"
+                        TextColor="#abc9d1"
                         FontSize="32"
                         HorizontalOptions="Center"
                         RelativeLayout.YConstraint="{ConstraintExpression Type=Constant,
@@ -65,7 +65,7 @@
                         Clicked="btnResume_Clicked"/>
 
                 <Label  Text="Resume"
-                        TextColor="White"
+                        TextColor="#abc9d1"
                         FontSize="32" 
                         HorizontalOptions="Center"
                         RelativeLayout.YConstraint="{ConstraintExpression Type=Constant,
@@ -89,7 +89,7 @@
                         Clicked="btnPortfolio_Clicked"/>
 
                 <Label  Text="Portfolio"
-                        TextColor="White"
+                        TextColor="#abc9d1"
                         FontSize="32" 
                         HorizontalOptions="Center"
                         RelativeLayout.YConstraint="{ConstraintExpression Type=Constant,
@@ -113,7 +113,7 @@
                         Clicked="btnContact_Clicked"/>
 
                 <Label  Text="Contact"
-                        TextColor="White"
+                        TextColor="#abc9d1"
                         FontSize="32" 
                         HorizontalOptions="Center"
                         RelativeLayout.YConstraint="{ConstraintExpression Type=Constant,
