@@ -5,8 +5,16 @@
              Title="Master"
              BackgroundColor="#00333F">
     <StackLayout>
-        <BoxView BackgroundColor="#004B5D"
-                 HeightRequest="100"></BoxView>
+        <StackLayout HeightRequest="100"
+                     BackgroundColor="#004B5D">
+            <Label TextColor="#dde9ec"
+                   FontSize="28"
+                   VerticalOptions="FillAndExpand"
+                   VerticalTextAlignment="Center"
+                   Margin="25, 0, 0, 0">
+                Menu
+            </Label>
+        </StackLayout>
         
         <ListView x:Name="ListViewMenuItems"
                   SeparatorVisibility="None"
